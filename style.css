@@ -81,3 +81,61 @@ h1{
   height: 280px;
 }
 
+/* Second Part */
+
+h2{
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.box-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0 100px 0 ;
+}
+
+.box-text{
+  width: 150px;
+}
+
+.box {  
+  width: 150px;
+  height: 150px;
+  border: 5px #3882F6 solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+
+/* Third Part  */
+
+.third-container{
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-text {  
+  margin: 100px;
+  width: 820px;
+  
+}
+
+.quote{
+  font-size: 36px; 
+  color: #1F2937;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: end;
+}
+
+.quote, .author{
+  margin: 0;
+}
