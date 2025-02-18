@@ -139,3 +139,46 @@ h2{
 .quote, .author{
   margin: 0;
 }
+
+/* Fourth Part  */
+
+.fourth-container{
+  display: flex;
+  justify-content: center;
+}
+
+.blue-container{
+  margin: 100px;
+  width: 1000px;
+  height: 140px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  border-radius: 10px;
+}
+
+.main-text {
+  color: #E5E7EB;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.secondary-text {
+  color: rgb(219, 220, 224);
+  font-size: 20px;
+}
+
+.blue-container button {  
+    width: 150px;
+    height: 50px;
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border: #F9FAF8 solid;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #E5E7EB;
+    font-weight: 600;  
+}
+
